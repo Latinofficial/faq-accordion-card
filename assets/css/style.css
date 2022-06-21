@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  background-color: rgb(129, 23, 103);
+}
+
+section {
+  background-color: white;
+  width: 80%;
+  height: 70%;
+  object-fit: contain;
+  place-items: center;
+  border-radius: 1rem;
+  display: flex;
+}
+.first-part {
+}
+.second-part {
+  padding: 7rem;
+}
+.first-word {
+  text-align: start;
+  font-weight: bolder;
+  margin-bottom: 40rem;
+  margin-top: 7rem;
+  font-size: 2rem;
+}
+.second-word {
+  color: brown;
+}
+.third-word {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
